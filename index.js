@@ -24,13 +24,7 @@ let editorCustomTheme = EditorView.theme({
   }
 });
 
-let doc = `
-CM6Sqrt[CM6Fraction[Table[RandomInteger[5], {i,1,5}], 2]]
-
-{0,CM6Sqrt[2],CM6Sqrt[CM6Fraction[3, 2]],CM6Sqrt[CM6Fraction[5, 2]],1}
-
-(CM6Grid[{{0, 1}, {1, 0}}, RowSpacings -> 1, ColumnSpacings -> 1, RowAlignments -> Baseline, ColumnAlignments -> Center])
-`;
+let doc = `NIntegrate((x-1)*(x-0.5)*x*(x+0.5)*(x+1), {x,0,1}, Method->LegendreGauss)`;
 
 
 let Editor = new EditorView({
