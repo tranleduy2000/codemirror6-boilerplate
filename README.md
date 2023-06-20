@@ -5,7 +5,7 @@ a fork from [this repo](https://github.com/JerryI/codemirror6-mathematica-sugar/
 installation
 
 ```bash
-git clone https://github.com/JerryI/codemirror6-boilerplate.git
+sudo npm i -g parcel
 npm i
-npm start
+npm build
 ```
