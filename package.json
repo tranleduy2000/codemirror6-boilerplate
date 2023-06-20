@@ -2,23 +2,24 @@
   "name": "boilerplate-cm6",
   "version": "0.0.1",
   "description": "Just an example",
-  "main": "index.html",
+  "default": "dist/index.html",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --public-url '.'"
   },
   "dependencies": {
     "@codemirror/legacy-modes": "6.3.2",
     "@codemirror/state": "6.2.0",
     "@codemirror/stream-parser": "0.19.9",
     "@codemirror/view": "6.9.6",
+    "@codemirror/language": "6.8.0",
+    "@codemirror/autocomplete": "^6.8.0",
     "codemirror": "6.0.1",
     "node-balanced": "0.0.14",
-    "parcel-bundler": "1.12.5",
     "rainbowbrackets": "^2.0.2"
   },
   "devDependencies": {
-    "@babel/core": "7.2.0",
+    "parcel": "^2.9.2",
+    "@babel/core": "7.18.6",
     "typescript": "4.4.4"
   },
   "resolutions": {
