@@ -1,8 +1,8 @@
 {
-  "name": "boilerplate-cm6",
-  "version": "0.0.1",
+  "name": "wolfram-language-for-codemirror",
+  "version": "0.0.10",
   "description": "Just an example",
-  "default": "dist/index.html",
+  "default": "index.js",
   "scripts": {
     "build": "parcel build index.html --public-url '.'"
   },
@@ -24,5 +24,9 @@
   },
   "resolutions": {
     "@babel/preset-env": "7.13.8"
-  }
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "type": "module"
 }
